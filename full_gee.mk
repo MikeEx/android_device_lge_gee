@@ -19,6 +19,13 @@ $(call inherit-product-if-exists, vendor/omni/config/gsm.mk)
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
+# Boot animation
+PRODUCT_COPY_FILES += \
+    vendor/cfx/prebuilt/common/bootanimation/720.zip:system/media/bootanimation.zip
+
+# Inherit some common CFX stuff.
+$(call inherit-product, vendor/cfx/config/common_full_phone.mk)
+
 PRODUCT_NAME := full_gee
 PRODUCT_DEVICE := gee
 PRODUCT_BRAND := Android

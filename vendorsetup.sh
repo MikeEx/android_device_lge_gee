@@ -14,5 +14,6 @@
 # limitations under the License.
 #
 
-add_lunch_combo full_gee-userdebug
-add_lunch_combo omni_gee-userdebug
+for i in codefirex eng user userdebug; do
+    add_lunch_combo full_gee-${i}
+done
