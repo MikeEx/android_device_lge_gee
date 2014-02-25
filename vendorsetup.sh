@@ -15,4 +15,4 @@
 #
 
 add_lunch_combo full_gee-userdebug
-add_lunch_combo omni_gee-userdebug
+add_lunch_combo mahdi_gee-userdebug
