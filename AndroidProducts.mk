@@ -15,5 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/full_gee.mk \
-    $(LOCAL_DIR)/omni_gee.mk
+    $(LOCAL_DIR)/full_gee.mk
