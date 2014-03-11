@@ -1,11 +1,7 @@
 # Specify phone tech before including full_phone
 $(call inherit-product, vendor/anime/configs/cdma.mk)
 
-# Copy device specific prebuilt files.
-PRODUCT_COPY_FILES += \
-    vendor/anime/prebuilt/bootanimations/BOOTANIMATION-1280x768.zip:system/media/bootanimation.zip
-
-TARGET_KERNEL_CONFIG := geehrc_defconfig
+TARGET_KERNEL_CONFIG := gee_defconfig
 
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
