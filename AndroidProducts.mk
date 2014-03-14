@@ -15,5 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/full_gee.mk \
-    $(LOCAL_DIR)/mahdi_gee.mk
+	$(LOCAL_DIR)/mahdi_gee.mk
