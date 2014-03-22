@@ -18,13 +18,13 @@
 # $(call inherit-product, device/sample/products/backup_overlay.mk)
 
 # Get the long list of APNs
-$(call inherit-product, vendor/mahdi/config/gsm.mk)
+$(call inherit-product, vendor/baked/config/gsm.mk)
 
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 # Inherit from our omni product configuration
-$(call inherit-product, vendor/mahdi/config/common.mk)
+$(call inherit-product, vendor/baked/config/common.mk)
 
 # Inherit from hardware-specific part of the product configuration
 $(call inherit-product, device/lge/gee/device.mk)
@@ -32,7 +32,7 @@ $(call inherit-product, device/lge/gee/device.mk)
 # Inherit from common hardware-specific part of the product configuration
 $(call inherit-product, device/lge/gee-common/gee-common.mk)
 
-PRODUCT_NAME := mahdi_gee
+PRODUCT_NAME := baked_gee
 PRODUCT_DEVICE := gee
 PRODUCT_BRAND := LGE
 PRODUCT_MODEL := Optimus G
