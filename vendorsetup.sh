@@ -14,4 +14,4 @@
 # limitations under the License.
 #
 
-add_lunch_combo mahdi_gee-userdebug
+add_lunch_combo dokdo_gee-userdebug
