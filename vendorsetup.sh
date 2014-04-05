@@ -15,5 +15,5 @@
 #
 
 for i in codefirex eng user userdebug; do
-    add_lunch_combo full_gee-${i}
+    add_lunch_combo cfx_gee-${i}
 done
